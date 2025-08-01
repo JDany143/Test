@@ -1,0 +1,18 @@
+/* Styling tambahan khusus proyek kamu */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffe4e6; /* Warna pink soft */
+  color: #4b5563; /* Warna teks abu-abu */
+}
+
+input:focus {
+  outline: none;
+  border-color: #ec4899; /* Pink Tailwind */
+  box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.3);
+}
+
+button:disabled {
+  background-color: #f9a8d4;
+  cursor: not-allowed;
+}
